@@ -1,0 +1,29 @@
+.timeline-with-icons {
+	border-left: 1px solid #f56a6a;
+	position: relative;
+	list-style: none;
+}
+
+.timeline-with-icons .timeline-item {
+	position: relative;
+}
+
+.timeline-with-icons .timeline-item:after {
+	position: absolute;
+	display: block;
+	top: 0;
+}
+
+.timeline-with-icons .timeline-icon {
+	position: absolute;
+	left: -34px;
+	background-color: white;
+	border: 1px solid #f56a6a;
+	color: #f56a6a;
+	border-radius: 50%;
+	height: 31px;
+	width: 31px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
